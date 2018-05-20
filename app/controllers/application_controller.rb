@@ -8,7 +8,4 @@ class ApplicationController < Sinatra::Base
   get "/" do
   	erb :index
   end
-  class Dog
-    attr_accessor :name
-  end
 end
